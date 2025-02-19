@@ -38,7 +38,7 @@ function Home() {
                      
                  </ul>
               </section>
-              <section className=' w-full h-auto lg:w-[45%] flex justify-center items-center order-1 lg:order-2'> <img src={Photo} className='w-[50%] rounded-2xl h-auto object-cover shadow shadow-gray-900' />
+              <section className='w-full h-auto lg:w-[45%] flex justify-center items-center order-1 lg:order-2'> <img src={Photo} className='w-[50%] md:w-[25%] lg:w-[40%] rounded-2xl h-auto object-cover shadow shadow-gray-500' />
               </section>
         </main>
     </>

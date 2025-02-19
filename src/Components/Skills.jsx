@@ -59,7 +59,7 @@ function Skills() {
    <div className="grid gap-8    grid-cols-2  lg:grid-cols-4 lg:gap-16 py-5">
     {
         SkillInfo.map(({id,text,icon})=>(
-          <div key={id} className=" h-40 gap-4 shadow text-black shadow-gray-800 flex flex-col justify-center items-center rounded-2xl">
+          <div key={id} className=" h-40 gap-4 shadow text-black shadow-gray-500 flex flex-col justify-center items-center rounded-2xl">
              <i className='text-6xl'>{icon}</i>
              <span className='text-xl md:text-3xl font-semibold'>{text}</span>
           </div>

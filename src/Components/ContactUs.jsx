@@ -38,7 +38,7 @@ function ContactUs() {
         <section className="mt-5">
           <span className=" text-sm">Please fill out the form below to contact me</span>
           <form onSubmit={handleSubmit(onSubmit)}
-            className="space-y-4 mt-5  shadow rounded-2xl shadow-gray-800 p-5 mx-auto  md:w-[40%]">
+            className="space-y-4 mt-5  shadow rounded-2xl shadow-gray-500 p-5 mx-auto  md:w-[40%]"> 
             <div className="text-2xl font-semibold">Send Your Message</div>
             <div>
               <label htmlFor="name" className="block text-lg">Name</label>
