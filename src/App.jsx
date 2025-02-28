@@ -10,18 +10,20 @@ import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
-    <>   
-      <div className="w-[95%] h-auto mx-[2.5%]">
-        <Navbar />
-        <Home/>
-        <AboutUs/>
-        <Skills/>
-        <Project/>
-        <ContactUs/>
-        <Footer/>
-      </div> 
-      <Toaster/>
+    <>
     
+        <div className="w-[95%] h-auto mx-[2.5%] ">
+          <Navbar />
+          <Home />
+          <AboutUs />
+          <Skills />
+          <Project />
+          <ContactUs />
+          <Footer />
+        </div>
+  
+      <Toaster />
+
     </>
   );
 }
