@@ -3,7 +3,7 @@ import { IoMenu } from "react-icons/io5";
 import { MdOutlineClear } from "react-icons/md";
 import "animate.css";
 import { Link } from "react-scroll";
-import logo from "../../public/Img/logo.jpeg"
+import logo from "../../public/Img/logo.png"
 
 function Navbar() {
   const [menuOpen, setmenuOpen] = useState(false);
