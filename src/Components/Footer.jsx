@@ -18,13 +18,16 @@ function Footer() {
   ];
   return (
     <>
-      <footer className='w-full h-auto rounded-t-2xl bg-gray-800 flex flex-col lg:flex-row py-20 gap-5 px-0 md:px-20 justify-between items-center '>
-        <h1 className=' order-2 text-center md:order-1 text-white text-xl  md:text-3xl' >© 2025 Harsh Dev,  All rights reserved.</h1>
+      <footer className='w-full h-auto rounded-t-md bg-black flex flex-col lg:flex-row py-20 gap-5 px-0 md:px-20 justify-between items-center '>
+        <div className=" order-2 text-center md:order-1 text-white text-xl  md:text-2xl">
+        <h1>© 2025 Harsh Suryavanshi,</h1>
+        <span>All rights reserved.</span>
+        </div>
         <ul className=' order-1 md:order-2 flex items-center justify-center gap-6'>
 
           {
             Icon.map(({ id, icon, link }) => (
-              <a key={id} href={link} className='bg-gray-900 p-2 rounded-2xl text-white text-3xl cursor-pointer' target="_blank" rel="noopener noreferrer">{icon}</a>
+              <a key={id} href={link} className=' p-2 rounded-md text-white hover:bg-[#cccccc37] text-3xl cursor-pointer' target="_blank" rel="noopener noreferrer">{icon}</a>
             ))
           }
         </ul>

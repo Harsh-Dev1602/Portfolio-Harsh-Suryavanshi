@@ -33,29 +33,29 @@ function ContactUs() {
     <>
       <main name="Contact Us" className="w-full h-auto  py-5 ">
 
-        <h1 className=" text-3xl text-white rounded-2xl p-2 bg-gray-800  font-semibold inline">Contact me</h1>
+        <h1 className=" text-2xl text-white rounded-md py-1 px-5 bg-black  font-semibold inline">Contact me</h1>
 
         <section className="mt-5">
           <span className=" text-sm">Please fill out the form below to contact me</span>
           <form onSubmit={handleSubmit(onSubmit)}
-            className="space-y-4 mt-5  shadow rounded-2xl shadow-gray-500 p-5 mx-auto  md:w-[40%]"> 
+            className="space-y-4 mt-5  shadow rounded-md shadow-gray-500 p-5 mx-auto  md:w-[40%]"> 
             <div className="text-2xl font-semibold">Send Your Message</div>
             <div>
-              <label htmlFor="name" className="block text-lg">Name</label>
-              <input name="name" {...register("name", { required: true })} type="text" id="name" placeholder=' Please enter a fullname..' className="w-full p-3 border border-gray-300 rounded-2xl  outline-none" />
+              <label htmlFor="name" className="block font-semibold text-lg">Name</label>
+              <input name="name" {...register("name", { required: true })} type="text" id="name" placeholder=' Please enter a fullname..' className="w-full p-3 border border-gray-300 rounded-md  outline-none" />
               {errors.name && <span className="text-red-600 pl-2.5">This field is required</span>}
             </div>
             <div>
-              <label htmlFor="email" className="block text-lg">Email</label>
-              <input name="email" {...register("email", { required: true })} type="email" placeholder=' Please enter a email id..' id="email" className="w-full p-3 border border-gray-300 rounded-2xl outline-none" />
+              <label htmlFor="email" className="block font-semibold text-lg">Email</label>
+              <input name="email" {...register("email", { required: true })} type="email" placeholder=' Please enter a email id..' id="email" className="w-full p-3 border border-gray-300 rounded-md outline-none" />
               {errors.email && <span className="text-red-600 pl-2.5">This field is required</span>}
             </div>
             <div>
-              <label htmlFor="message" className="block text-lg">Message</label>
-              <textarea name="message" {...register("message", { required: true })} id="message" placeholder=' Enter your Query..' className="w-full min-h-30 p-3 border border-gray-300 rounded-2xl outline-none"></textarea>
+              <label htmlFor="message" className="block font-semibold text-lg">Message</label>
+              <textarea name="message" {...register("message", { required: true })} id="message" placeholder=' Enter your Query..' className="w-full min-h-30 p-3 border border-gray-300 rounded-md outline-none"></textarea>
               {errors.message && <span className="text-red-600 pl-2.5">This field is required</span>}
             </div>
-            <button type="submit" className="bg-blue-600 cursor-pointer hover:bg-blue-400 text-white p-3 rounded-2xl font-semibold">Send Message</button>
+            <button type="submit" className="bg-blue-600 cursor-pointer hover:bg-blue-400 text-white p-3 rounded-md font-semibold">Send Message</button>
           </form>
         </section>
       </main>

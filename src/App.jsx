@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     
-        <div className="w-[95%] h-auto mx-[2.5%] ">
+        <div className="w-[95%] h-auto mx-auto ">
           <Navbar />
           <Home />
           <AboutUs />
