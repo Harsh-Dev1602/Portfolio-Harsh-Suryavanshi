@@ -18,8 +18,8 @@ function Footer() {
   ];
   return (
     <>
-      <footer className='w-full h-auto rounded-t-md bg-black flex flex-col lg:flex-row py-20 gap-5 px-0 md:px-20 justify-between items-center '>
-        <div className=" order-2 text-center md:order-1 text-white text-xl  md:text-2xl">
+      <footer className='w-full h-auto rounded-t-2xl bg-black flex flex-col lg:flex-row py-20 gap-5 px-0 md:px-20 justify-between items-center  '>
+        <div className=" order-2 text-center  md:order-1 text-white text-xl  md:text-2xl">
         <h1>© 2025 Harsh Suryavanshi,</h1>
         <span>All rights reserved.</span>
         </div>

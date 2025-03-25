@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <>
     
-      <header className="w-full h-auto sticky top-0 right-0 rounded-b-md py-[15px] px-10 bg-white shadow shadow-[#cccc]   text-black  flex justify-between items-center  z-50">
+      <header className="w-full h-auto sticky top-0 right-0 rounded-b-2xl py-[15px] px-10 bg-white shadow shadow-[#cccc]   text-black  flex justify-between items-center  z-50">
       
         <h1 className=" flex gap-5 text-2xl justify-center items-center   sm:text-4xl font-bold"><img src={Photo} className=" w-10 h-10 bg-black  shadow shadow-[#cccc] rounded-full" />H.S.</h1>
         <ul className=" hidden lg:flex justify-center items-center gap-4">
@@ -25,7 +25,7 @@ function Navbar() {
               duration={500}
             >
             <li
-              className="cursor-pointer font-semibold px-2.5 py-1 rounded-md hover:bg-[#cccc]  text-[17px] transition-all"
+              className="cursor-pointer font-semibold px-2.5 py-1 rounded-md hover:bg-sky-100  text-[17px] transition-all"
               
             >
                 {text}

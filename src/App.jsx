@@ -11,8 +11,8 @@ import { Toaster } from 'react-hot-toast';
 function App() {
   return (
     <>
-    
-        <div className="w-[95%] h-auto mx-auto ">
+       <div className="bg-sky-200">
+        <div className="w-[94%] h-auto mx-auto  ">
           <Navbar />
           <Home />
           <AboutUs />
@@ -21,7 +21,7 @@ function App() {
           <ContactUs />
           <Footer />
         </div>
-  
+        </div>
       <Toaster />
 
     </>

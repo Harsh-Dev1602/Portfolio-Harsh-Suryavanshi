@@ -20,12 +20,12 @@ function Home() {
     <>
         <main name="Home" className=' w-full h-auto  py-5  flex justify-center items-center gap-1.5 flex-col lg:flex-row'>
               <section className=' w-full h-auto lg:w-[45%] text-4xl flex justify-center items-center order-2 lg:order-1 flex-col space-y-5'>
-                <div className=" text-center py-2 px-5 bg-black text-white rounded-md">
+                <div className=" text-center py-2 px-5 bg-white text-black rounded-2xl">
                 <h1 className=' text-3xl md:text-5xl font-semibold'>Harsh Suryavanshi</h1>
                 <span className=' text-xl'>Full stack developar</span>
 
                 </div>
-                <a href="#" className=' text-xl bg-black text-white py-2 px-5 font-semibold rounded-md'>Download CV</a>
+                <a href="#" className=' text-2xl bg-sky-700 text-white py-4 px-8 transition-all duration-[800ms] hover:bg-black font-semibold rounded-full'>Download CV</a>
 
 
                 <ul className=' order-1 md:order-2 flex items-center justify-center gap-6'>
