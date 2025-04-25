@@ -19,7 +19,7 @@ function Project() {
               <h3 className="text-2xl font-bold">Comprehensive Notes</h3>
               <p className="mt-2 text-justify">The Comprehensive Digital Learning System for Students provides an intuitive and user-friendly platform for accessing, sharing, and engaging with study materials.
 
-                <a href="https://comprehensive-notes.vercel.app" className='text-blue-700 hover:underline font-bold  p-1.5 ' target="_blank" rel="noopener noreferrer">Visit My Project</a>
+                <a href="https://comprehensive-notes-minor-project.vercel.app" className='text-blue-700 hover:underline font-bold  p-1.5 ' target="_blank" rel="noopener noreferrer">Visit My Project</a>
               </p>
 
             </div>
