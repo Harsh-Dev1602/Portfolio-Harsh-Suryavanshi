@@ -11,19 +11,16 @@ import { Toaster } from 'react-hot-toast';
 function App() {
   return (
     <>
-       <div className="bg-sky-200">
-        <div className="w-[94%] h-auto mx-auto  ">
-          <Navbar />
-          <Home />
-          <AboutUs />
-          <Skills />
-          <Project />
-          <ContactUs />
-          <Footer />
-        </div>
-        </div>
+      <div className="w-[94%] h-auto mx-auto  ">
+        <Navbar />
+        <Home />
+        <AboutUs />
+        <Skills />
+        <Project />
+        <ContactUs />
+        <Footer />
+      </div>
       <Toaster />
-
     </>
   );
 }
