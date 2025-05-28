@@ -11,7 +11,7 @@ import { Toaster } from 'react-hot-toast';
 function App() {
   return (
     <>
-      <div className="w-[94%] h-auto mx-auto  ">
+      <div className="w-[94%] h-auto mx-auto  min-[1700px]:w-[70%] min-[3500px]:w-[20%] ">
         <Navbar />
         <Home />
         <AboutUs />

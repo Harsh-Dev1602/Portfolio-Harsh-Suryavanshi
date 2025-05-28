@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <>
     
-      <header className="w-full h-auto sticky top-0 right-0 rounded-b-2xl py-[15px] px-10 bg-white shadow shadow-[#cccc]   text-black  flex justify-between items-center  z-50">
+      <header className="w-full h-auto sticky top-0 right-0 rounded-b-2xl py-[15px] px-5 bg-white shadow shadow-[#cccc]   text-black  flex justify-between items-center  z-50">
       
         <h1 className=" flex gap-5 text-2xl justify-center items-center   sm:text-4xl font-bold"><img src={Photo} className=" w-10 h-10 bg-black  shadow shadow-[#cccc] rounded-full" />H.S.</h1>
         <ul className=" hidden lg:flex justify-center items-center gap-4">
@@ -37,13 +37,14 @@ function Navbar() {
           className="lg:hidden text-3xl "
           onClick={() => setmenuOpen(!menuOpen)}
         >
-          {menuOpen ? <MdOutlineClear /> : <IoMenu />}
+          {menuOpen ? <> <MdOutlineClear /> <div className="fixed top-0 right-0 w-[30%] h-screen bg-transparent"></div> </> : <IoMenu />}
         </div>
       </header>
         {menuOpen && (
+          <>
         <div
-          className=" w-[95%]  mx-[2.5%] shadow shadow-[#cccc]  h-auto lg:hidden fixed top-20 rounded-md right-0 py-5 text-white flex  justify-center items-center flex-col bg-white
-          animate__animated animate__fadeInDown"
+          className=" w-[70%]  shadow shadow-[#cccc]  h-screen lg:hidden fixed top-0 left-0 z-50 rounded-md py-5 text-white flex  justify-center items-center flex-col bg-white
+          animate__animated animate__fadeInLeft"
         >
             {Menu.map((text, i) => (
               <Link 
@@ -61,6 +62,7 @@ function Navbar() {
             ))}
 
         </div>
+        </>
       )}
     </>
   );
