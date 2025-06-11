@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaSquareGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import Photo from "../../public/Img/Photo.jpg";
+import Photo from "../../public/Img/Photo.png";
 
 function Home() {
    const Icon = [
@@ -38,7 +38,8 @@ function Home() {
                      
                  </ul>
               </section>
-              <section className='w-full h-auto lg:w-[45%] flex justify-center items-center order-1 lg:order-2'> <img src={Photo} className='w-[300px] h-[300px] rounded-full   shadow shadow-gray-500' />
+        
+              <section className='w-full h-auto lg:w-[45%] flex justify-center items-center order-1 lg:order-2'> <img src={Photo} className='w-[300px] h-[300px] rounded-md   filter drop-shadow-[0_0_4px_rgba(0,0,0,1)]' />
               </section>
         </main>
     </>
