@@ -10,44 +10,29 @@ import { SiTailwindcss } from "react-icons/si";
 
 function Skills() {
 
-    const SkillInfo = [
+    const SkillInfo = [   
       {
-        id:1,
-        text:"HTML",
-        icon:<ImHtmlFive />,
-      },
-      {
-        id:2,
-        text:"CSS",
-        icon:<FaCss3Alt />,
-      },
-      {
-        id:3,
-        text:"Java Script",
-        icon:<TbBrandJavascript />,
-      },
-      {
-        id:4,
+        id:0,
         text:"React Js",
         icon:<GrReactjs />,
       }, 
       {
-        id:5,
+        id:1,
         text:"Node Js",
         icon:<FaNode />,
       },
       {
-        id:6,
+        id:2,
         text:"Mongo DB",
         icon:<DiMongodb />,
       },    
       {
-        id:7,
+        id:3,
         text:"Express Js",
         icon:<SiExpress />,
       },
       {
-        id:8,
+        id:4,
         text:"Tailwind CSS",
         icon:<SiTailwindcss />,
       },
@@ -56,10 +41,10 @@ function Skills() {
   return (
     <div name="Skills" className=" w-full h-auto  py-5">
    <h2 className="text-2xl text-white bg-black inline py-1 px-5 rounded-md font-semibold">Skills</h2>
-   <div className="grid gap-8    grid-cols-2  lg:grid-cols-4 lg:gap-16 py-5">
+   <div className="grid gap-8    grid-cols-2  lg:grid-cols-5 lg:gap-16 py-5">
     {
         SkillInfo.map(({id,text,icon})=>(
-          <div key={id} className=" h-40 gap-4 shadow text-black shadow-gray-500 flex flex-col justify-center items-center rounded-2xl bg-white">
+          <div key={id} className=" h-40 gap-5 shadow text-black shadow-gray-500 flex flex-col justify-center items-center rounded-2xl bg-white">
              <i className='text-6xl'>{icon}</i>
              <span className='text-xl md:text-3xl font-semibold'>{text}</span>
           </div>
