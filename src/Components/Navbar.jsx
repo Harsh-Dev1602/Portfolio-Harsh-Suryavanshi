@@ -3,7 +3,7 @@ import { IoMenu } from "react-icons/io5";
 import { MdOutlineClear } from "react-icons/md";
 import "animate.css";
 import { Link } from "react-scroll";
-import Photo from '../../public/Img/Photo.png'
+
 
 function Navbar() {
   const [menuOpen, setmenuOpen] = useState(false);
@@ -13,7 +13,10 @@ function Navbar() {
     
       <header className="w-full h-auto sticky top-0 right-0 rounded-b-2xl py-[15px] px-5 bg-white shadow shadow-[#cccc]   text-black  flex justify-between items-center  z-50">
       
-        <h1 className=" flex gap-5 text-2xl justify-center items-center   sm:text-4xl font-bold"><img src={Photo} className=" w-10 h-10   shadow shadow-[#cccc] rounded-full" />H.S.</h1>
+        <div className=" text-2xl font-semibold flex justify-center items-center flex-col">
+           <h1 ><span className="text-4xl text-sky-700">H</span>ars<span className=" text-[28px]">h</span></h1>
+           <span className="text-[#000000a5] text-[10px]">Developar</span>
+        </div>
         <ul className=" hidden lg:flex justify-center items-center gap-4">
           {Menu.map((text, i) => (
             <Link  key={i}

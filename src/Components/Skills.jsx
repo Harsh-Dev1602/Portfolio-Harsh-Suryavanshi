@@ -46,7 +46,7 @@ function Skills() {
         SkillInfo.map(({id,text,icon})=>(
           <div key={id} className=" h-40 gap-5 shadow text-black shadow-gray-500 flex flex-col justify-center items-center rounded-2xl bg-white">
              <i className='text-6xl'>{icon}</i>
-             <span className='text-xl md:text-3xl font-semibold'>{text}</span>
+             <span className='text-xl text-center md:text-3xl font-semibold'>{text}</span>
           </div>
         ))
     }

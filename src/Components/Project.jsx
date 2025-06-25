@@ -16,7 +16,7 @@ function Project() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
             <div className="p-6 bg-white  shadow shadow-gray-500 rounded-2xl ">
               <img src={Img1} />
-              <h3 className="text-2xl font-bold">Comprehensive Notes</h3>
+              <h3 className="italic text-2xl">Comprehensive Notes</h3>
               <p className="mt-2 text-justify">The Comprehensive Digital Learning System for Students provides an intuitive and user-friendly platform for accessing, sharing, and engaging with study materials.
 
                 <a href="https://comprehensive-notes-minor-project.vercel.app" className='text-blue-700 hover:underline font-bold  p-1.5 ' target="_blank" rel="noopener noreferrer">Visit My Project</a>
@@ -25,7 +25,7 @@ function Project() {
             </div>
             <div className="p-6 bg-white  shadow shadow-gray-500 rounded-2xl ">
               <img src={Img4} />
-              <h3 className="text-2xl font-bold">Chat-Application
+              <h3 className=" italic text-2xl">Instant Chat
               </h3>
               <p className="mt-2 text-justify">A Chat Application is a real-time communication platform that allows users to send and receive text, and multimedia messages over the internet. chat apps support features such as message notifications  and status updates.
 
@@ -35,7 +35,7 @@ function Project() {
             </div>
             <div className="p-6 bg-white shadow shadow-gray-500 rounded-2xl">
               <img src={Img2} />
-              <h3 className="text-2xl font-bold">To-Do List</h3>
+              <h3 className="text-2xl italic">To-Do List</h3>
 
               <p className="mt-2 text-justify">  
                 A To-Do List is a tool used to organize tasks that need to be completed. As tasks are completed, they can be marked off or removed from the list.
@@ -45,7 +45,7 @@ function Project() {
             </div>
             <div className="p-6 bg-white shadow shadow-gray-500 rounded-2xl " >
               <img src={Img3} />
-              <h3 className="text-2xl font-bold">QR-Generator</h3>
+              <h3 className="text-2xl italic">QR-Generator</h3>
               <p className="mt-2 text-justify">
               A QR Generator is a tool that creates QR codes (Quick Response codes), which are two-dimensional barcodes that can store information such as text, URLs, contact details, or other data. 
                  <a href="https://qr-generator-three-wheat.vercel.app" className='text-blue-700 font-bold  hover:underline  p-1.5 ' target="_blank" rel="noopener noreferrer ">Visit My Project</a>
