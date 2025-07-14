@@ -25,9 +25,7 @@ function Home() {
                 <span className=' text-xl'>Full stack developar</span>
 
                 </div>
-                <a href="#" className=' text-2xl bg-sky-700 text-white py-4 px-8 transition-all duration-1000 hover:bg-black rounded-full'>Download CV</a>
-
-
+         
                 <ul className=' order-1 md:order-2 flex items-center justify-center gap-6 shadow shadow-[#ccc] rounded-2xl py-1 px-2.5'>
                      
                      {

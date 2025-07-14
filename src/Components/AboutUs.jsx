@@ -3,14 +3,17 @@ import React from 'react'
 function AboutUs() {
   return (
     <>
-      <main name="About Us" className='w-full h-auto '>
+      <main name="About Me" className='w-full h-auto '>
         <h2 className="text-2xl text-white font-semibold bg-black inline py-1 px-5 rounded-md">About Us</h2>
         <div className=" bg-white p-5 mt-5 rounded-2xl">
-          <p className=' text-xl mb-5 text-justify '>Hello! I’m Harsh Suryavanshi, a passionate and dedicated third-year student currently pursuing a degree in Information Technology at the Acropolis Institute of Technology & Research. With a solid foundation in HTML, CSS, JavaScript, and full-stack development, including the MERN stack, I am continually learning and evolving as I approach the final stages of my degree.</p>
-          <p className=' text-xl mb-5 text-justify'>Throughout my academic journey, I have had the opportunity to work on various hands-on projects, including a To-Do List application and a QR Code Generator, as well as collaborating with peers on a Comprehensive Notes project as part of a minor. These experiences have not only helped me refine my technical skills but have also allowed me to grow as a problem-solver and communicator.</p>
-          <p className=' text-xl mb-5 text-justify'>I am particularly interested in User Experience Design and website development, and I am eager to apply my knowledge and skills in real-world settings. This portfolio showcases some of my best work to date, reflecting my growth, creativity, and dedication to my craft.</p>
+          <p className=' text-xl mb-5 text-justify '>Hello! I’m Harsh Suryavanshi, a passionate and dedicated fourth-year student pursuing a degree in Information Technology at the Acropolis Institute of Technology & Research. With a strong foundation in the MERN stack, I continue to grow and evolve as I prepare for my professional journey.</p>
+          <p className=' text-xl mb-5 text-justify'>Throughout my academic career, I've had the opportunity to work on several hands-on projects, including a  Comprehensive Notes project developed as part of a minor. These experiences have refined my technical skills and strengthened my abilities in teamwork, communication, and creative problem-solving.</p>
+          <p className=' text-xl mb-5 text-justify'>I have a keen interest in User Experience Design and Web Development, and I’m eager to apply my knowledge to real-world challenges. This portfolio represents some of my most impactful work, showcasing my progress, creativity, and dedication to the craft of software development. </p>
+            <p className=' text-xl mb-5 text-justify'>
+            As I enter my final year, I’m excited to embrace new opportunities, continue learning, and contribute meaningfully to the tech community.</p>
+           <p className=' text-xl mb-5 text-justify'>Thank you for taking the time to explore my journey!</p>
 
-          <p className=' text-xl text-justify'>I am excited to continue building on these experiences and look forward to the future. Thank you for exploring my journey so far!</p>
+
         </div>
 
       </main>

@@ -31,7 +31,7 @@ function ContactUs() {
 
   return (
     <>
-      <main name="Contact Us" className="w-full h-auto  py-5 ">
+      <main name="Contact Me" className="w-full h-auto  py-5 ">
 
         <h1 className=" text-2xl text-white rounded-md py-1 px-5 bg-black  font-semibold inline">Contact me</h1>
 
@@ -43,19 +43,19 @@ function ContactUs() {
             <div>
               <label htmlFor="name" className="block font-semibold text-lg">Name</label>
               <input name="name" {...register("name", { required: true })} type="text" id="name" placeholder=' Please enter a fullname..' className="w-full p-3 border border-gray-300 rounded-md  outline-none" />
-              {errors.name && <span className="text-red-600 pl-2.5">This field is required</span>}
+              {errors.name && <span className="text-red-600 font-semibold pl-1">This field is required</span>}
             </div>
             <div>
               <label htmlFor="email" className="block font-semibold text-lg">Email</label>
               <input name="email" {...register("email", { required: true })} type="email" placeholder=' Please enter a email id..' id="email" className="w-full p-3 border border-gray-300 rounded-md outline-none" />
-              {errors.email && <span className="text-red-600 pl-2.5">This field is required</span>}
+              {errors.email && <span className="text-red-600 font-semibold pl-1">This field is required</span>}
             </div>
             <div>
               <label htmlFor="message" className="block font-semibold text-lg">Message</label>
               <textarea name="message" {...register("message", { required: true })} id="message" placeholder=' Enter your Query..' className="w-full min-h-30 p-3 border border-gray-300 rounded-md outline-none"></textarea>
-              {errors.message && <span className="text-red-600 pl-2.5">This field is required</span>}
+              {errors.message && <span className="text-red-600 font-semibold pl-1">This field is required</span>}
             </div>
-            <button type="submit" className="bg-blue-600 cursor-pointer hover:bg-blue-400 text-white py-3 px-5 rounded-full font-semibold">Send Message</button>
+            <button type="submit" className="bg-blue-800 cursor-pointer hover:bg-blue-300 duration-1000 text-white py-3 px-5 rounded-md font-semibold">Send Message</button>
           </form>
         </section>
       </main>

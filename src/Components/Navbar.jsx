@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 
 function Navbar() {
   const [menuOpen, setmenuOpen] = useState(false);
-  const Menu = ["Home", "About Us","Skills", "Project", "Contact Us"];
+  const Menu = ["Home", "About Me","Skills", "Project", "Contact Me"];
   return (
     <>
     
@@ -24,7 +24,7 @@ function Navbar() {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-100}
               duration={500}
             >
             <li
@@ -57,7 +57,7 @@ function Navbar() {
               activeClass="active"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-100}
               duration={500}
                 className="w-[50%] text-center  text-black  cursor-pointer font-semibold mx-4 py-2     hover:bg-[#cccc] rounded-md  text-xl transition-all ">
                 {text}
