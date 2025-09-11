@@ -31,15 +31,15 @@ function ContactUs() {
 
   return (
     <>
-      <main name="Contact Me" className="w-full h-auto  py-5 ">
+      <main name="Contact Me" className="w-full h-auto  p-5 ">
 
-        <h1 className=" text-2xl text-white rounded-md py-1 px-5 bg-black  font-semibold inline">Contact me</h1>
+        <h1 className=" text-2xl text-white rounded-md p-2  font-bold inline BG_Color">Contact me</h1>
 
-        <section className="mt-5 ">
-          <span className=" text-sm">Please fill out the form below to contact me</span>
+        <section className="mt-5">
+          <span className=" font-bold text-sm">Please fill out the form below to contact me</span>
           <form onSubmit={handleSubmit(onSubmit)}
-            className="space-y-4 mt-5  shadow rounded-2xl shadow-gray-500 p-5 mx-auto  md:w-[40%] bg-white"> 
-            <div className="text-2xl font-semibold">Send Your Message</div>
+            className="space-y-4 mt-5  shadow rounded-2xl shadow-gray-500 p-5 mx-auto  lg:w-[40%] bg-white"> 
+            <div className="text-2xl font-bold Text_Color">Send Your Message</div>
             <div>
               <label htmlFor="name" className="block font-semibold text-lg">Name</label>
               <input name="name" {...register("name", { required: true })} type="text" id="name" placeholder=' Please enter a fullname..' className="w-full p-3 border border-gray-300 rounded-md  outline-none" />

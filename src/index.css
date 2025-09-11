@@ -1,6 +1,27 @@
 @import "tailwindcss";
 
-.font-family{
-    font-family:'Times New Roman', Times, serif;
+.font-family {
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
+    color: blueviolet;
+}
+
+.BG_Img {
+    width: 100%;
+    height: auto;
+    background-image: url("./../public/Img/Bg_Img.jpeg");
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.BG_Color {
+    /* background: linear-gradient(to right, #647FBC, #91ADC8, #AED6CF); */
+    background: linear-gradient(to right, #7B6CF6, #5432D3, #241E92);
+}
+
+.Text_Color {
+    background: linear-gradient(to right, #7B6CF6, #5432D3, #241E92);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

@@ -1,6 +1,7 @@
 import React from 'react'
 import Img1 from "../../public/Img/Project1.png"
 import Img2 from "../../public/Img/Project2.png"
+import { FaArrowCircleRight } from "react-icons/fa";
 
 function Project() {
 
@@ -23,18 +24,17 @@ function Project() {
 
   return (
     <>
-      <main name="Project" className='w-full h-auto py-5 '>
+      <main name="Project" className='w-full h-auto p-5 '>
         <section>
-          <h2 className="text-2xl text-white rounded-md inline p-2  bg-black font-semibold">Project</h2>
+          <h2 className="text-2xl text-white rounded-md inline p-2 font-bold BG_Color">Project</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
             {
               pro.map(({ id, p, text, link, img }) => (
                 <div key={id} className="p-6 bg-white  shadow shadow-gray-500 rounded-2xl ">
-                  <img src={img} />
-                  <h3 className="italic text-2xl">{text}</h3>
-                  <p className="mt-2 text-justify">{p}
-                  </p>
-                  <a href={link} className='text-blue-700 hover:underline font-bold  p-1.5 ' target="_blank" rel="noopener noreferrer">Visit My Project</a>
+                  <img src={img} className='shadow shadow-[#ccc] rounded-md'/>
+                  <h3 className="italic Text_Color font-extrabold text-2xl">{text}</h3>
+                  <p className="my-2 text-justify">{p}</p>
+                  <a href={link} className='BG_Color hover:underline flex justify-center items-center gap-2 font-bold  p-2 text-white rounded-md ' target="_blank" rel="noopener noreferrer"><FaArrowCircleRight />Visit My Project</a>
                 </div>
               ))
             }

@@ -39,8 +39,8 @@ function Skills() {
     ]
 
   return (
-    <div name="Skills" className=" w-full h-auto  py-5">
-   <h2 className="text-2xl text-white bg-black inline py-1 px-5 rounded-md font-semibold">Skills</h2>
+    <div name="Skills" className=" w-full h-auto  p-5">
+   <h2 className="text-2xl text-white BG_Color inline p-2 rounded-md font-bold">Skills</h2>
    <div className="grid gap-8    grid-cols-2  lg:grid-cols-5 lg:gap-16 py-5">
     {
         SkillInfo.map(({id,text,icon})=>(

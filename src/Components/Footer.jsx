@@ -18,17 +18,16 @@ function Footer() {
   ];
   return (
     <>
-      <footer className='w-full h-auto rounded-t-2xl bg-black flex flex-col md:flex-row py-20 gap-5 px-0 md:px-20 justify-between items-center  '>
+      <footer className='w-full h-auto rounded-t-2xl bg-gray-900 flex flex-col md:flex-row py-20 gap-5 px-0 md:px-20 justify-between items-center  '>
         <div className=" order-2 text-center  md:order-1 text-white text-xl flex  gap-2 md:text-2xl">
-          <h1>© 2025,</h1>
-          <span> All rights reserved.</span>
+          <h1>© 2025 Harsh Dev, All rights reserved.</h1>
         </div>
-        <div className=' order-1 md:order-2 flex items-center justify-center gap-4 shadow flex-col shadow-[#ccc] rounded-2xl py-1 px-10'>
-          <h1 className=' text-white'>FOLLOW US</h1>
-          <ul className='flex'>
+        <div className=' order-1 md:order-2 flex items-center justify-center gap-4 shadow flex-col shadow-[#ccc] bg-gray-100 rounded-2xl py-1 px-5'>
+          <h1 className=' text-white text-xl font-bold Text_Color'>FOLLOW US</h1>
+          <ul className='flex gap-5'>
             {
               Icon.map(({ id, icon, link }) => (
-                <a key={id} href={link} className=' p-2 rounded-md text-white hover:bg-[#cccccc17] text-3xl cursor-pointer' target="_blank" rel="noopener noreferrer">{icon}</a>
+                <a key={id} href={link} className=' p-2 rounded-md  BG_Color text-white text-3xl cursor-pointer' target="_blank" rel="noopener noreferrer">{icon}</a>
               ))
             }
           </ul>
