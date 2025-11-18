@@ -52,7 +52,7 @@ function ContactUs() {
             </div>
             <div>
               <label htmlFor="message" className="block font-semibold text-lg">Message</label>
-              <textarea name="message" {...register("message", { required: true })} id="message" placeholder=' Enter your Query..' className="w-full min-h-30 p-3 border border-gray-300 rounded-md outline-none"></textarea>
+              <textarea name="message" {...register("message", { required: true })} id="message" placeholder=' Enter your Query..' className="w-full min-h-30 max-h-50 p-3 border border-gray-300 rounded-md outline-none"></textarea>
               {errors.message && <span className="text-red-600 font-semibold pl-1">This field is required</span>}
             </div>
             <button type="submit" className="bg-blue-800 cursor-pointer hover:bg-blue-300 duration-1000 text-white py-3 px-5 rounded-md font-semibold">Send Message</button>

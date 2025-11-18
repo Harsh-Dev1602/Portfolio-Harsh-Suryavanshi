@@ -1,6 +1,8 @@
 import React from 'react'
 import Img1 from "../../public/Img/Project1.png"
 import Img2 from "../../public/Img/Project2.png"
+import Img3 from "../../public/Img/Project3.png"
+
 import { FaArrowCircleRight } from "react-icons/fa";
 
 function Project() {
@@ -20,6 +22,13 @@ function Project() {
       p: "A Chat Application is a real-time communication platform that allows users to send and receive text, and multimedia messages over the internet. chat apps support features such as message notifications  and status updates.",
       link: "https://chat-application-a5mv.onrender.com",
     },
+    {
+      id: 2,
+      text: "Intelli Assess",
+      img: Img3,
+      p: "Intelli Assess is an end-to-end online examination platform designed to simplify and secure the entire assessment lifecycle. ",
+      link: "https://intelli-assess-major-project.onrender.com",
+    },
   ]
 
   return (
@@ -32,9 +41,9 @@ function Project() {
               pro.map(({ id, p, text, link, img }) => (
                 <div key={id} className="p-6 bg-white  shadow shadow-gray-500 rounded-2xl ">
                   <img src={img} className='shadow shadow-[#ccc] rounded-md'/>
-                  <h3 className="italic Text_Color font-extrabold text-2xl">{text}</h3>
+                  <h3 className="italic mt-2 Text_Color font-extrabold text-2xl">{text}</h3>
                   <p className="my-2 text-justify">{p}</p>
-                  <a href={link} className='BG_Color hover:underline flex justify-center items-center gap-2 font-bold  p-2 text-white rounded-md ' target="_blank" rel="noopener noreferrer"><FaArrowCircleRight />Visit My Project</a>
+                  <a href={link} className='BG_Color hover:underline flex justify-center items-center gap-2 font-bold  p-4 text-white rounded-md ' target="_blank" rel="noopener noreferrer"><FaArrowCircleRight />Visit My Project</a>
                 </div>
               ))
             }
