@@ -39,12 +39,12 @@ function Skills() {
     ]
 
   return (
-    <div name="Skills" className=" w-full h-auto  p-5">
+    <div name="Skills" className=" w-full h-auto  pt-5">
    <h2 className="text-2xl text-white BG_Color inline p-2 rounded-md font-bold">Skills</h2>
    <div className="grid gap-8    grid-cols-2  lg:grid-cols-5 lg:gap-16 py-5">
     {
         SkillInfo.map(({id,text,icon})=>(
-          <div key={id} className=" h-40 gap-5 shadow text-black shadow-gray-500 flex flex-col justify-center items-center rounded-2xl bg-white">
+          <div key={id} className=" h-40 gap-5 shadow text-black shadow-gray-500 flex flex-col justify-center items-center rounded-md bg-white">
              <i className='text-6xl'>{icon}</i>
              <span className='text-xl text-center md:text-3xl font-semibold'>{text}</span>
           </div>

@@ -19,7 +19,7 @@ function Home() {
   return (
     <>
         <main name="Home" className=' w-full h-auto py-[100px] my-5 rounded-md flex justify-center items-center gap-1.5 flex-col lg:flex-row BG_Img'>
-              <section className=' w-full h-auto  lg:w-[45%] text-4xl flex justify-center items-center order-2 lg:order-1 flex-col space-y-2'>
+              <section className=' w-full h-auto  lg:w-[45%] text-4xl flex justify-center items-center order-2 lg:order-1 flex-col space-y-2 gap-5'>
                 <div className=" text-center py-2 px-5 bg-white text-black rounded-2xl">
                 <h1 className='font-family  text-[33px] Text_Color font-extrabold md:text-5xl'>Harsh Suryavanshi</h1>
                 <span className=' text-xl font-semibold'>Full stack developar</span>

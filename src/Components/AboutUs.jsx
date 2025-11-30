@@ -3,7 +3,7 @@ import React from 'react'
 function AboutUs() {
   return (
     <>
-      <main name="About Me" className='w-full h-auto p-5'>
+      <main name="About Me" className='w-full h-auto pt-5'>
         <h2 className="text-2xl text-white font-bold BG_Color inline p-2 rounded-md ">About Us</h2>
         <div className=" bg-white mt-5 rounded-2xl">
           <p className=' text-xl mb-5 text-justify '>Hello! I’m Harsh Suryavanshi, a passionate and dedicated fourth-year student pursuing a degree in Information Technology at the Acropolis Institute of Technology & Research. With a strong foundation in the MERN stack, I continue to grow and evolve as I prepare for my professional journey.</p>

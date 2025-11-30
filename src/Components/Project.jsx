@@ -33,7 +33,7 @@ function Project() {
 
   return (
     <>
-      <main name="Project" className='w-full h-auto p-5 '>
+      <main name="Project" className='w-full h-auto pt-5 '>
         <section>
           <h2 className="text-2xl text-white rounded-md inline p-2 font-bold BG_Color">Project</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
@@ -42,8 +42,8 @@ function Project() {
                 <div key={id} className="p-6 bg-white  shadow shadow-gray-500 rounded-2xl ">
                   <img src={img} className='shadow shadow-[#ccc] rounded-md'/>
                   <h3 className="italic mt-2 Text_Color font-extrabold text-2xl">{text}</h3>
-                  <p className="my-2 text-justify">{p}</p>
-                  <a href={link} className='BG_Color hover:underline flex justify-center items-center gap-2 font-bold  p-4 text-white rounded-md ' target="_blank" rel="noopener noreferrer"><FaArrowCircleRight />Visit My Project</a>
+                  <p className="my-2 font-semibold text-justify">{p}</p>
+                  <a href={link} className='BG_Color hover:underline flex justify-center items-center gap-2 font-extrabold  p-4 text-white rounded-md ' target="_blank" rel="noopener noreferrer"><FaArrowCircleRight />Visit My Project</a>
                 </div>
               ))
             }

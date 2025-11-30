@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <>
     
-      <header className="w-full h-auto sticky top-0 right-0 rounded-b-2xl py-[15px] px-5 bg-gray-100 shadow shadow-[#cccc]   text-black  flex justify-between items-center  z-50">
+      <header className="w-full h-auto sticky top-0 right-0 rounded-b-2xl py-[15px] px-5 bg-white shadow shadow-[#cccc]   text-black  flex justify-between items-center  z-50">
       
         <div className=" text-2xl font-semibold flex justify-center  items-start">
            <h1 className="Text_Color "><span className=" font-bold text-4xl">H</span>arsh</h1>
@@ -46,7 +46,7 @@ function Navbar() {
         {menuOpen && (
           <>
         <div
-          className=" w-[70%] md:w-[30%]  shadow shadow-[#cccc]  h-screen lg:hidden fixed top-0 left-0 z-50 rounded-md py-5 text-white flex  justify-center items-center flex-col bg-gray-100 animate__animated animate__fadeInLeft"
+          className=" w-[70%] md:w-[30%]  shadow shadow-[#cccc]  h-screen lg:hidden fixed top-0 left-0 z-50 rounded-md py-5 text-white flex  justify-center items-center flex-col bg-white animate__animated animate__fadeInLeft"
         >
             {Menu.map((text, i) => (
               <Link 
