@@ -39,14 +39,11 @@ function ContactUs() {
               Get Started
               <span className="block w-16 h-1.5 bg-[#9b51e0] mt-3 mx-auto rounded-full"></span>
             </h2>
-            <p className="text-gray-500 mt-4 font-medium uppercase tracking-widest text-sm">
-              I'm available for new projects
-            </p>
           </div>
 
           <div className="max-w-4xl mx-auto bg-white rounded-[2rem] shadow-2xl shadow-purple-500/5 overflow-hidden flex flex-col lg:flex-row border border-gray-100">
             <div className="lg:w-1/3 bg-gradient-to-br from-[#9b51e0] to-[#3a0ca3] p-10 text-white flex flex-col justify-center">
-              <h3 className="text-2xl font-bold mb-4">100% Satisfaction Guaranteed</h3>
+              <h3 className="text-2xl font-bold mb-4">  I'm available for new projects</h3>
               <p className="text-white/80 text-sm leading-relaxed mb-6">
                 I help students and businesses build robust digital solutions with the MERN stack.
               </p>

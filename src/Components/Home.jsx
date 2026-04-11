@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaSquareGithub, FaLinkedin, FaPlay } from "react-icons/fa6";
-import Photo from "../../public/Img/Photo.png";
+import Photo from "../../public/Img/Image1.png";
 
 function Home() {
   const icons = [
@@ -24,9 +24,9 @@ function Home() {
 
   return (
     <>
-      <main 
+      <main style={{ minHeight:"calc(100vh - 100px)"}}
         name="Home" 
-        className="relative w-full min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-[#9b51e0] to-[#3a0ca3] text-white pt-32 pb-48 overflow-hidden"
+        className="relative w-full h-auto flex flex-col items-center justify-center bg-gradient-to-r from-[#9b51e0] to-[#3a0ca3] text-white py-32 overflow-hidden"
       >
         <div className="absolute top-20 left-10 w-32 h-32 bg-white/5 rounded-full blur-2xl animate-pulse"></div>
         <div className="absolute bottom-40 right-10 w-64 h-64 bg-purple-400/10 rounded-full blur-3xl"></div>

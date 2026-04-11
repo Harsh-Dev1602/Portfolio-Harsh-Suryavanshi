@@ -2,6 +2,7 @@ import React from 'react'
 import Img1 from "../../public/Img/Project1.png"
 import Img2 from "../../public/Img/Project2.png"
 import Img3 from "../../public/Img/Project3.png"
+import Img4 from "../../public/Img/Project4.png"
 import { FaArrowRight } from "react-icons/fa6";
 
 function Project() {
@@ -29,6 +30,14 @@ function Project() {
       category: "Examination System",
       p: "An end-to-end online examination platform designed to simplify and secure the entire assessment lifecycle for institutions.",
       link: "https://intelli-assess-major-project.onrender.com",
+    },
+     {
+      id: 3,
+      text: "Placid Digital",
+      img: Img4,
+      category: "Training Program",
+      p: "Placid Digital is a fast-growing IT power-house delivering innovative software, mobile apps, and digital marketing strategies.",
+      link: "https://placid-digital.vercel.app/",
     },
   ]
 
